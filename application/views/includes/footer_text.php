@@ -1,0 +1,4 @@
+<p>Are you looking for <strong>deals on gear?</strong> You have come to the right place.  GearCompare.com has deals on gear from all of the major outdoor stores.  And we pull
+    in sale information, coupon codes, deal of the day and closeout deals from every major outdoor retialer online.  We have over 20,000 on sale outdoor products that you can search for,
+     and we have our own GearCompare.com EXCLUSIVE coupon codes.  If you want deals on outdoor gear, GearCompare.com is the place for you to find them.  
+     Please <a href="http://eepurl.com/nOBjP" target="_blank">sign up for our FREE newsletter!</a> so that you never miss a deal or a sale on the gear you want.</p>

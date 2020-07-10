@@ -1,0 +1,112 @@
+/* @override http://presstige.com/wp-content/themes/presstige/css/dropdown.css */
+
+/* @group Main Menu */
+
+/* Main Menu */
+
+#menu {position: relative;}
+#menu ul, #menu ul li, #menu ul ul {list-style: none;margin: 0;padding: 0;}
+#menu ul {position: relative;z-index: 9997;}
+#menu ul li {float: left;zoom: 1;background-image: none;}
+#menu_wrap {position: relative;z-index: 9000;width: 100%;}
+#menu ul li.hover, #menu ul li:hover {position: relative;z-index: 9999;cursor: default;}
+
+#menu li span {
+	font-weight: normal;
+	display: block;
+	padding: 0px;
+	line-height: 24px;
+	position: relative;
+	top: -16px;
+	font-family: helvetica,arial,san-serif;
+}
+
+
+#menu ul, #menu ul li, #menu ul ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#menu li {
+	margin: 0;
+	float: left;
+	zoom: 1;
+}
+
+
+#menu ul li.hover, #menu ul li:hover {
+	position: relative;
+	z-index: 9999;
+	cursor: default;
+}
+
+#menu ul ul {
+	visibility: hidden;
+	position: absolute;
+	min-width: 200px;
+	z-index: 9998;
+	width: auto;
+	font-size: 13px;
+	padding: 0px;
+}
+
+
+
+/* No Captions */
+
+#menu_wrap #menu ul ul {top: 66px;}
+#menu_wrap #menu ul ul ul {top: 0;}
+#menu_wrap #menu li a {line-height: 76px;}
+
+
+/* Has Captions */
+
+#menu_wrap.true #menu li a {line-height: 42px;height: 66px;padding-top: 10px;}
+#menu_wrap.true #menu ul ul {top: 66px;}
+#menu_wrap.true #menu ul ul ul {top: 0;}  
+
+
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+
+#menu_wrap #menu  ul ul a,
+#menu_wrap #menu  ul ul ul a,
+#menu_wrap.true #menu  ul ul a,
+#menu_wrap.true #menu  ul ul ul a {
+	padding: 0px 5px 0px 8px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 0;
+	min-width: 200px;
+}
+
+
+#menu ul ul li {
+	float: none;
+	white-space: nowrap;
+	margin: 0;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+#menu ul ul ul {
+	top: -5px;
+	left: 100%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#menu ul li:hover > ul {
+	visibility: visible;
+}
+
+/* @end */

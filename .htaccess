@@ -1,0 +1,73 @@
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+### REDIRECT MATCHES
+RedirectMatch 301 ^/category/(.*)$ http://thedeal.gearcompare.com/category/$1
+RedirectMatch 301 ^/store/(.*)$ http://www.gearcompare.com/deals/all/
+RedirectMatch 301 ^/stores/(.*)$ http://thedeal.gearcompare.com/stores/$1
+RedirectMatch 301 ^/tag/(.*)$ http://thedeal.gearcompare.com/tag/$1
+RedirectMatch 301 ^/index.php/products/(.*)$ http://www.gearcompare.com/deals/$1
+
+### ARTICLES
+redirect 301 /mountain-buggy-urban-jungle-runway-jogging-stroller-on-sale/ http://thedeal.gearcompare.com/mountain-buggy-urban-jungle-runway-jogging-stroller-on-sale/
+redirect 301 /prana-clearance-sale-up-to-30-off-prana-clothing/ http://thedeal.gearcompare.com/prana-clearance-sale-up-to-30-off-prana-clothing/
+redirect 301 /the-north-face-on-sale-at-backcountry/ http://thedeal.gearcompare.com/the-north-face-on-sale-at-backcountry/
+redirect 301 /black-diamond-momentum-al-climbing-harness-on-sale/ http://thedeal.gearcompare.com/black-diamond-momentum-al-climbing-harness-on-sale/
+redirect 301 /altrec-com-the-north-face-sale/ http://thedeal.gearcompare.com/altrec-com-the-north-face-sale/
+redirect 301 /rei-member-rewards-event-2012/ http://thedeal.gearcompare.com/rei-member-rewards-event-2012/
+redirect 301 /campsaver-com-outlet-coupon-code/ http://thedeal.gearcompare.com/campsaver-com-outlet-coupon-code/
+redirect 301 /altrec-com-weekly-specials-coupon-code-june-13th-june-18th http://thedeal.gearcompare.com/altrec-com-weekly-specials-coupon-code-june-13th-june-18th/
+redirect 301 /moosejaw-climbing-sale http://thedeal.gearcompare.com/moosejaw-climbing-sale/
+redirect 301 /altrec-com-sales-update http://thedeal.gearcompare.com/altrec-com-sales-update/
+redirect 301 /moosejaw-com-footwear-coupon-code http://thedeal.gearcompare.com/moosejaw-com-footwear-coupon-code/
+redirect 301 /campsaver-20-off-coupon-code-april-2012 http://thedeal.gearcompare.com/campsaver-20-off-coupon-code-april-2012/
+redirect 301 /rei-member-rewards-event-2012 http://thedeal.gearcompare.com/rei-member-rewards-event-2012
+redirect 301 /backcountry-com-coupon-code http://thedeal.gearcompare.com/backcountry-com-coupon-code
+redirect 301 /outdoor-deals-blog http://thedeal.gearcompare.com/category/stores/
+redirect 301 /altrec-winter-meltdown-sale/ http://thedeal.gearcompare.com/altrec-winter-meltdown-sale/
+redirect 301 /kelty-camping-sale/ http://thedeal.gearcompare.com/kelty-camping-sale/
+redirect 301 /moosejaw-friday-the-13th-sale/ http://thedeal.gearcompare.com/moosejaw-friday-the-13th-sale/
+redirect 301 /altrec-com-camp-hike-sale-up-to-50-off/ http://thedeal.gearcompare.com/altrec-com-camp-hike-sale-up-to-50-off/
+redirect 301 /sorel-winter-boots-on-sale-up-to-30-off/ http://thedeal.gearcompare.com/sorel-winter-boots-on-sale-up-to-30-off/
+redirect 301 /rei-anniversary-sale-coupon-code/	http://thedeal.gearcompare.com/rei-anniversary-sale-coupon-code/
+redirect 301 /the-north-face-end-of-season-sale/ http://thedeal.gearcompare.com/the-north-face-end-of-season-sale/
+redirect 301 /moosejaw-coupon-code-for-the-north-face-and-patagonia-sale-items/	http://thedeal.gearcompare.com/moosejaw-coupon-code-for-the-north-face-and-patagonia-sale-items/
+redirect 301 /mens-the-north-face-denali-jacket-on-sale/ http://thedeal.gearcompare.com/mens-the-north-face-denali-jacket-on-sale/
+redirect 301 /girls-the-north-face-denali-jacket-on-sale-2/ http://thedeal.gearcompare.com/girls-the-north-face-denali-jacket-on-sale-2/
+redirect 301 /boys-the-north-face-denali-jacket-on-sale/ http://thedeal.gearcompare.com/boys-the-north-face-denali-jacket-on-sale/
+redirect 301 /moosejaw-coupon-code-for-extra-20-off-super-clearance-items/ http://thedeal.gearcompare.com/moosejaw-coupon-code-for-extra-20-off-super-clearance-items/
+redirect 301 /altrec-spring-climbing-sale-up-to-30-off/	http://thedeal.gearcompare.com/altrec-spring-climbing-sale-up-to-30-off/
+redirect 301 /skis-com-coupon-codes/ http://thedeal.gearcompare.com/skis-com-coupon-codes/
+redirect 301 /the-north-face-backpack-sale-at-moosejaw-com/ http://thedeal.gearcompare.com/the-north-face-backpack-sale-at-moosejaw-com/
+redirect 301 /campsaver-winter-clearance-up-to-60-off/ http://thedeal.gearcompare.com/campsaver-winter-clearance-up-to-60-off/
+redirect 301 /save-on-marmot-mountain-hardwear-and-vibram/ http://thedeal.gearcompare.com/save-on-marmot-mountain-hardwear-and-vibram/
+redirect 301 /vibram-five-finger-on-sale/ http://thedeal.gearcompare.com/vibram-five-finger-on-sale/
+redirect 301 /moosejaw-com-coupon-code-2012-5-off-sale-items/ http://thedeal.gearcompare.com/moosejaw-com-coupon-code-2012-5-off-sale-items/
+redirect 301 /womens-sandals-on-sale-at-altrec-com-up-to-20-off/ http://thedeal.gearcompare.com/womens-sandals-on-sale-at-altrec-com-up-to-20-off/
+redirect 301 /20-off-all-eastern-mountain-sports-clothing-and-gear/	http://thedeal.gearcompare.com/20-off-all-eastern-mountain-sports-clothing-and-gear/
+redirect 301 /outdoor-research-on-sale/	http://thedeal.gearcompare.com/outdoor-research-on-sale/
+redirect 301 /moosejaw-com-coupon-code-2012/ http://thedeal.gearcompare.com/moosejaw-com-coupon-code-2012/
+redirect 301 /rei-coupon-code-22-off-of-keen-and-rei-brand-gear/ http://thedeal.gearcompare.com/rei-coupon-code-22-off-of-keen-and-rei-brand-gear/
+redirect 301 /womens-the-north-face-denali-jacket-on-sale-2/ http://thedeal.gearcompare.com/womens-the-north-face-denali-jacket-on-sale-2/
+redirect 301 /backcountry-com-coupon-code/ http://thedeal.gearcompare.com/backcountry-com-coupon-code/
+redirect 301 /ibex-sale-at-altrec-com/ http://thedeal.gearcompare.com/ibex-sale-at-altrec-com/
+redirect 301 /altrec-com-summer-tent-sale-up-to-30-off/	http://thedeal.gearcompare.com/altrec-com-summer-tent-sale-up-to-30-off/
+redirect 301 /tecnica-dragon-100-ultrafit-ski-boot-on-sale/	http://thedeal.gearcompare.com/tecnica-dragon-100-ultrafit-ski-boot-on-sale/
+redirect 301 /altrec-deal-of-the-day/ http://thedeal.gearcompare.com/altrec-deal-of-the-day/
+redirect 301 /salomon-divine-6-womens-ski-boots-on-sale/ http://thedeal.gearcompare.com/salomon-divine-6-womens-ski-boots-on-sale/
+redirect 301 /extra-20-off-sale-items-at-moosejaw-com-with-coupon-code/	http://thedeal.gearcompare.com/extra-20-off-sale-items-at-moosejaw-com-with-coupon-code/
+### PAGES
+redirect 301 /contact-us http://thedeal.gearcompare.com/contact-us/
+redirect 301 /privacy-policy http://thedeal.gearcompare.com/privacy-policy/
+redirect 301 /disclaimer http://thedeal.gearcompare.com/disclaimer/
+redirect 301 /copyright-policy-statement http://thedeal.gearcompare.com/copyright-policy-statement/
+redirect 301 /user-agreement http://thedeal.gearcompare.com/user-agreement/
+redirect 301 /about-us http://thedeal.gearcompare.com/about-us/
+
+### RANDOM CRAP
+redirect 301 /comments/feed http://thedeal.gearcompare.com/comments/feed/
+redirect 301 /deals-of-the-day http://www.gearcompare.com/
+redirect 301 /mens-clothing.html http://www.gearcompare.com/deals/category/mens-clothing/
